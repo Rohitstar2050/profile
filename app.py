@@ -14,4 +14,5 @@ def portfolio():
 @app.route('/innerpage')
 def innerpage():
     return render_template('inner-page.html')
-app.run()
+if __name__=="__main__":
+    app.run()
